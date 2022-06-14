@@ -1,0 +1,19 @@
+/
+├─ Landing page
+│   ├─ Name
+│   └─ CTA
+├─ Services
+├─ The Team
+├─ Book or contact
+│   ├─ Schedule
+│   ├─ Phone
+│   └─ Mail
+├─ Salon photos
+└─ Footer
+
+
+│
+
+├─
+
+└─
