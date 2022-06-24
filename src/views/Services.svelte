@@ -61,6 +61,7 @@
 
         .cardContainer {
             flex-flow: row wrap;
+            justify-content: center;
         }
 
     }

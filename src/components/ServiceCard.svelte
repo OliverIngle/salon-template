@@ -71,6 +71,9 @@
                 "description description pricelink"
             ;
             grid-template-columns: 35% 35% 30%;
+
+            padding-top: 4rem;
+            padding-bottom: 4rem;
         }
 
         .centerXContainer {
@@ -80,7 +83,8 @@
 
     @media screen and (min-width: 1000px) {
         .container {
-            flex-grow: 1;
+            width: 25rem;
+            padding: 4rem;
         }
     }
 
