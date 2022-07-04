@@ -10,9 +10,9 @@
 </script>
 
 <section id="booking">
+    <h2 class="sectionTitle">Book your cut</h2>
     <div class="bookingInfoContainer">
-        <h2 class="sectionTitle">Book your cut</h2>
-        <div class="padded1margin1Block centerXContainer">
+        <div class="padded1margin1Block centerXContainer availability">
             <h3>Availability</h3>
             <i class="fa-regular fa-clock timeIcon"></i>
             <table>
@@ -26,7 +26,7 @@
                 </tr>
             </table>
         </div>
-        <div class="centerXContainer padded1margin1Block">
+        <div class="centerXContainer padded1margin1Block phone">
             <h3>Phone</h3>
             <div class="phoneInfo">
                 <div class="numberContainer">
@@ -38,7 +38,7 @@
                 </button>
             </div>
         </div>
-        <div class="padded1margin1Block">
+        <div class="padded1margin1Block contact">
             <h3>Contact</h3>
             <div class="contactForm">
                 <form>
@@ -56,7 +56,7 @@
 </section>
 
 <style>
-    
+
     section { background-color: var(--quarternary); }
 
     .padded1margin1Block {
@@ -65,6 +65,9 @@
         border-radius: 1rem; */
         margin: 1rem;
         margin-bottom: 0;
+    }
+    .padded1margin1Block:last-child {
+        margin-bottom: 2rem;
     }
 
     h3 {
@@ -131,5 +134,52 @@
         padding: 1rem;
         border-radius: 1rem;
     }
+
+    @media screen and (min-width: 700px) {
+
+        .bookingInfoContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h3 {
+            align-self: auto;
+            font-weight: bold;
+        }
+
+        i.timeIcon {
+            visibility: hidden;
+            height: 0px;
+        }
+
+        .contact {
+            background-color: var(--primary);
+            border-radius: 1rem;
+            width: 30rem;
+            padding: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        .availability, .phone {
+            padding: 2rem;
+            width: 30rem;
+            border: 3px solid;
+            border-color: var(--primary);
+            border-radius: 1rem;
+        }
+
+
+        input, textarea {
+            border-color: var(--tertiary);
+        }
+
+        .submitButton {
+            background-color: var(--tertiary);
+        }
+
+    }
+
+
 
 </style>
