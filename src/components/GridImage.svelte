@@ -33,7 +33,7 @@
 
     @media screen and (min-width: 600px) {
         .tall { grid-row: span 2 / auto; }
-        .wide { grid-column: span 2 / auto; }
+        /* .wide { grid-column: span 2 / auto; } */
     }
     
 

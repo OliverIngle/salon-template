@@ -17,12 +17,12 @@
         new Image("salon1", null),
         new Image("salon2", "tall"),
         new Image("salon3", null),
-        new Image("salon4", "tall"),
-        new Image("salon5", "tall"),
-        new Image("salon6", "tall wide"),
-        new Image("salon7", "wide"),
-        new Image("salon8", null),
         new Image("salon9", "tall"),
+        new Image("salon4", null),
+        new Image("salon5", null),
+        new Image("salon6", "tall wide"),
+        new Image("salon7", null),
+        new Image("salon8", null),
     ];
     
 </script>
