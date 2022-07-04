@@ -48,4 +48,15 @@
         font-weight: bold;
     }
 
+    @media screen and (min-width: 650px) {
+
+        .card {
+            max-width: 20rem;
+            border: none;
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+
+    }
+
 </style>

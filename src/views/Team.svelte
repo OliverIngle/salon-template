@@ -32,7 +32,7 @@
             "Jacob",
             "Barber",
             "../images/jacob.jpg"
-        )
+        ),
     ] 
 </script>
 
@@ -49,6 +49,18 @@
 
     section {
         background-color: var(--primary);
+    }
+
+    @media screen and (min-width: 650px) {
+
+        .cardContainer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            justify-content: center;
+        }
+
     }
 
 </style>
