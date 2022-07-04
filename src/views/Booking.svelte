@@ -66,9 +66,6 @@
         margin: 1rem;
         margin-bottom: 0;
     }
-    .padded1margin1Block:last-child {
-        margin-bottom: 2rem;
-    }
 
     h3 {
         font-size: 1.5rem;
@@ -136,6 +133,10 @@
     }
 
     @media screen and (min-width: 700px) {
+
+        .padded1margin1Block:last-child {
+            margin-bottom: 2rem;
+        }
 
         .bookingInfoContainer {
             display: flex;
